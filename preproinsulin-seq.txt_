@@ -1,0 +1,17 @@
+ORIGIN      
+        1 malwmrllpl lallalwgpd paaafvnqhl cgshlvealy lvcgergffy tpktrreaed
+       61 lqvgqvelgg gpgagslqpl alegslqkrg iveqcctsic slyqlenycn
+//
+
+"lsinsulin-seq-clean.txt"
+analyze1="malwmrllpllallalwgpdpaaaf"
+print(len(analyze1))
+
+analyze= "malwmrllpllallalwgpdpaaafvnqhlcgshlvealylvcgergffytpktrreaedlqvgqvelgggpgagslqplalegslqkrgiveqcctsicslyqlenycn"
+x=list(analyze)
+print(x)
+print(len(analyze))
+
+x=range(0,25)
+for n in x:
+    print(n)
